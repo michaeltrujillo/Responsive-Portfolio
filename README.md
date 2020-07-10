@@ -7,15 +7,15 @@ In this assignment I have created four pages: contact.html, index.html, portfoli
 
 contact.html 
 Includes a responsive navbar and responsive containers with contact info.
-<img src="assets/contactSS" alt="Screenshot of Contact page">
+<img src="assets/contactSS.png" alt="Screenshot of Contact page">
 
 index.html
 Includes a responsive navbar and responsive images.
-<img src="assets/homeSS" alt="Screenshot of Home page">
+<img src="assets/homeSS.png" alt="Screenshot of Home page">
 
 portfolio.html
 Includes Bacon Ipsum for now, but will eventually consist of all current projects.
-<img src="assets/portfolioSS" alt="Screenshot of Portfolio page">
+<img src="assets/portfolioSS.png" alt="Screenshot of Portfolio page">
 
 reset.css
 This resets the default CSS on any browser.

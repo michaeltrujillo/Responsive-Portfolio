@@ -1,58 +1,75 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <style>
-     
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    body {background-color: lightblue;}
+  </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Michael Trujillo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
-    
-    <div class="img-fluid pics" >
-        <img style="padding-top: 60px; padding-right: 60px; padding-bottom: 60px; padding-left: 60px; height: 350px; width: 30%;" src="assets/ambulanceShaka.jpg" alt="Michael in front of Ambulance">
-        <img style="padding-top: 60px; padding-right: 60px; padding-bottom: 60px; padding-left: 60px; height: 350px; width: 30%;" src="assets/giannisAttack.jpeg" alt="Giannis Licking Michael">
-        <img style="padding-top: 60px; padding-right: 60px; padding-bottom: 60px; padding-left: 60px; height: 350px; width: 30%;" src="assets/girlfriendFlowers.JPG" alt="Michael and Lupe">
 
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
 
-    
+
+          <div class="card" style="width: 18rem;">
+            <img class= "img-fluid" src="assets/ambulanceShaka.jpg" alt="Michael in front of Ambulance" >
+            <div class="card-body">
+              <p class="card-text">I have over 7,000 hours of experience as a first responder.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class= "img-fluid" src="assets/giannisAttack.jpeg" alt="Michael Licked by Dog" >
+            <div class="card-body">
+              <p class="card-text">My dog's name is Giannis(after the basketball player).</p>
+            </div>
+          </div>
+        
+        </div>
+
+
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class= "img-fluid" src="assets/girlfriendFlowers.JPG" alt="Michael with Girlfriend" >
+            <div class="card-body">
+              <p class="card-text">I have been dating my girlfriend for 3 years. Her name is Lupe!</p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+  </div>
+  
 </body>
 </html>

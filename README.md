@@ -1,6 +1,6 @@
 # homework2
 
-Hello grader! This is a resubmit of my homework assignment #2: Responsive Portfolio. 
+Hello! This is a resubmit of my homework assignment #2: Responsive Portfolio. 
 
 
 In this assignment I have created four pages: contact.html, index.html, portfolio.html, and reset.css.

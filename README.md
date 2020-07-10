@@ -1,6 +1,7 @@
 # homework2
 
 Hello! This is a resubmit of my homework assignment #2: Responsive Portfolio. 
+link: https://michaeltrujillo.github.io/Responsive-Portfolio/
 
 
 In this assignment I have created four pages: contact.html, index.html, portfolio.html, and reset.css.
